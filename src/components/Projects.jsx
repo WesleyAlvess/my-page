@@ -1,6 +1,4 @@
 import React from 'react';
-import WorkImgmg from '../assets/projects/workImg.jpeg';
-import RealEstate from '../assets/projects/realestate.jpg';
 import TodoList from '../assets/projects/todolist.png';
 import SistemaEstoque from '../assets/projects/sistema-estoque.png';
 import FoodEat from '../assets/projects/food-eat.png'
@@ -26,33 +24,16 @@ const Projects = () => {
                                     Aplicação React JS
                                 </span>
                                 <div className='pt-8 text-center'>
-                                    <a href="/">
+                                    <a href="https://best-eatsw.netlify.app/">
                                         <button className='bg-white px-4 py-3 m-3 text-center text-gray-700 font-bold text-lg rounded-lg'>Demo</button>
                                     </a>
-                                    <a href="/">
+                                    <a href="https://github.com/WesleyAlvess/best-eats">
                                         <button className='bg-white px-4 py-3 m-3 text-center text-gray-700 font-bold text-lg rounded-lg'>Código</button>
                                     </a>
                                 </div>
                             </div>
                         </div>
 
-                        <div style={{ backgroundImage: `url(${RealEstate})`, padding: '20px' }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-
-                            {/* Hover Effects */}
-                            <div className='opacity-0 group-hover:opacity-100'>
-                                <span className='text-2xl font-bold text-white tracking-wider'>
-                                    Aplicação React JS
-                                </span>
-                                <div className='pt-8 text-center'>
-                                    <a href="/">
-                                        <button className='bg-white px-4 py-3 m-3 text-center text-gray-700 font-bold text-lg rounded-lg'>Demo</button>
-                                    </a>
-                                    <a href="/">
-                                        <button className='bg-white px-4 py-3 m-3 text-center text-gray-700 font-bold text-lg rounded-lg'>Código</button>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
                         <div style={{ backgroundImage: `url(${TodoList})`, padding: '20px' }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                             {/* Hover Effects */}
@@ -61,10 +42,10 @@ const Projects = () => {
                                     Aplicação React JS
                                 </span>
                                 <div className='pt-8 text-center'>
-                                    <a href="/">
+                                    <a href="https://to-do-full-stack.vercel.app/">
                                         <button className='bg-white px-4 py-3 m-3 text-center text-gray-700 font-bold text-lg rounded-lg'>Demo</button>
                                     </a>
-                                    <a href="/">
+                                    <a href="https://github.com/WesleyAlvess/ToDoFullStack">
                                         <button className='bg-white px-4 py-3 m-3 text-center text-gray-700 font-bold text-lg rounded-lg'>Código</button>
                                     </a>
                                 </div>
@@ -78,10 +59,10 @@ const Projects = () => {
                                     Aplicação React JS
                                 </span>
                                 <div className='pt-8 text-center'>
-                                    <a href="/">
+                                    <a href="/https://github.com/WesleyAlvess/sistemaEstoque">
                                         <button className='bg-white px-4 py-3 m-3 text-center text-gray-700 font-bold text-lg rounded-lg'>Demo</button>
                                     </a>
-                                    <a href="/">
+                                    <a href="https://github.com/WesleyAlvess/sistemaEstoque">
                                         <button className='bg-white px-4 py-3 m-3 text-center text-gray-700 font-bold text-lg rounded-lg'>Código</button>
                                     </a>
                                 </div>
