@@ -1,6 +1,9 @@
 import React from 'react';
 import WorkImgmg from '../assets/projects/workImg.jpeg';
 import RealEstate from '../assets/projects/realestate.jpg';
+import TodoList from '../assets/projects/todolist.png';
+import SistemaEstoque from '../assets/projects/sistema-estoque.png';
+import FoodEat from '../assets/projects/food-eat.png'
 
 const Projects = () => {
     return (
@@ -15,7 +18,7 @@ const Projects = () => {
                     
                     {/* Grid item */}
 
-                        <div style={{ backgroundImage: `url(${WorkImgmg})`, padding: '20px' }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                        <div style={{ backgroundImage: `url(${FoodEat})`, padding: '20px' }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                             {/* Hover Effects */}
                             <div className='opacity-0 group-hover:opacity-100'>
@@ -50,7 +53,7 @@ const Projects = () => {
                                 </div>
                             </div>
                         </div>
-                        <div style={{ backgroundImage: `url(${RealEstate})`, padding: '20px' }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                        <div style={{ backgroundImage: `url(${TodoList})`, padding: '20px' }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                             {/* Hover Effects */}
                             <div className='opacity-0 group-hover:opacity-100'>
@@ -67,7 +70,7 @@ const Projects = () => {
                                 </div>
                             </div>
                         </div>
-                        <div style={{ backgroundImage: `url(${RealEstate})`, padding: '20px' }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                        <div style={{ backgroundImage: `url(${SistemaEstoque})`, padding: '20px' }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                             {/* Hover Effects */}
                             <div className='opacity-0 group-hover:opacity-100'>
